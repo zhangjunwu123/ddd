@@ -2,16 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-parent" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo-ddd-biz" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/demo-service-eureka" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service-parent" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service-turbine" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service-zuul" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/demo-service2-customer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service2-order" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service2-parent" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service2-product" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/demo-service2-support" vcs="Git" />
   </component>
 </project>

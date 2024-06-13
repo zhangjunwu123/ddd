@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-ddd-biz" />
         <module name="demo-ddd-support" />
-        <module name="demo-service2-support" />
       </profile>
     </annotationProcessing>
   </component>

@@ -3,21 +3,20 @@
  */
 package ddd.zjw.support.repository;
 
-import com.demo2.support.dao.BasicDao;
-import com.demo2.support.dao.impl.factory.Join;
-import com.demo2.support.dao.impl.factory.Ref;
-import com.demo2.support.dao.impl.factory.VObj;
-import com.demo2.support.dao.impl.factory.VObjFactory;
-import com.demo2.support.entity.Entity;
-import com.demo2.support.entity.ResultSet;
-import com.demo2.support.exception.QueryException;
-import com.demo2.support.service.impl.QueryServiceImpl;
+import ddd.zjw.support.dao.BasicDao;
+import ddd.zjw.support.dao.impl.factory.Join;
+import ddd.zjw.support.dao.impl.factory.Ref;
+import ddd.zjw.support.dao.impl.factory.VObj;
+import ddd.zjw.support.dao.impl.factory.VObjFactory;
+import ddd.zjw.support.entity.Entity;
+import ddd.zjw.support.service.impl.QueryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
+import ddd.zjw.support.entity.ResultSet;
 
 /**
  * The implement of the query service that 
@@ -31,7 +30,7 @@ public class AutofillQueryServiceImpl extends QueryServiceImpl {
 	 * @return the dao
 	 */
 	public BasicDao getDao() {
-		if(dao==null) throw new QueryException("The dao is null");
+		if(dao==null) throw new RuntimeException("The dao is null");
 		return dao;
 	}
 	/**

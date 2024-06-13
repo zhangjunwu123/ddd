@@ -3,10 +3,10 @@
  */
 package ddd.zjw.support.cache;
 
-import com.demo2.support.dao.impl.DaoEntity;
-import com.demo2.support.dao.impl.DaoEntityHelper;
-import com.demo2.support.entity.Entity;
-import com.demo2.support.exception.DaoException;
+
+import ddd.zjw.support.dao.impl.DaoEntity;
+import ddd.zjw.support.dao.impl.DaoEntityHelper;
+import ddd.zjw.support.entity.Entity;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -103,7 +103,7 @@ public class RedisCache implements BasicCache {
 	private <S extends Serializable, T extends Entity<S>> T object2Entity(Object obj, T template) {
 		if(obj==null||template==null) return null;
 		if(!template.getClass().equals(obj.getClass()))
-			throw new DaoException("the object must be an entity["+obj.getClass()+"]");
+			throw new RuntimeException("the object must be an entity["+obj.getClass()+"]");
 		return (T)obj;
 	}
 	

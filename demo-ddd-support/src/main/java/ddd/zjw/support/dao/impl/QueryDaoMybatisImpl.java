@@ -3,7 +3,7 @@
  */
 package ddd.zjw.support.dao.impl;
 
-import com.demo2.support.dao.QueryDao;
+import ddd.zjw.support.dao.QueryDao;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
