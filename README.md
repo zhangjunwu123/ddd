@@ -1,8 +1,10 @@
 # ddd
 领域驱动样例项目
 
-### demo-ddd-trade  
+### demo-ddd-biz 
 
-一个独立DDD项目
+业务层应用
 
-### 其它项目是分布式DDD项目
+### demo-ddd-support
+
+支撑层
