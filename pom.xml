@@ -15,6 +15,7 @@
   <modules>
     <module>demo-ddd-biz</module>
     <module>demo-ddd-support</module>
+      <module>demo-ddd-biz</module>
   </modules>
 
   <properties>
