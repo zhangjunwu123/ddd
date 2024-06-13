@@ -148,7 +148,7 @@ public class Repository extends DecoratorDao implements BasicDao {
 		VObj vObj = VObjFactory.getVObj(entity.getClass().getName());
 		List<Join> listOfJoins = vObj.getJoins();
 		if(listOfJoins==null||listOfJoins.isEmpty()) return;
-		
+		//如果有关联明细
 		for(Join join : listOfJoins) {
 			if(!join.isAggregation()) continue;
 			String name = join.getName();

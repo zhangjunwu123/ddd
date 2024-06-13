@@ -10,6 +10,7 @@ import java.util.Map;
 
 /**
  * The generic dao which persist data with mybatis.
+ * 这个就是以前的dao
  * @author zjw
  */
 public interface GenericDao {

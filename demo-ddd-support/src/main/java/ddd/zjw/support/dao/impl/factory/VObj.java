@@ -6,7 +6,7 @@ package ddd.zjw.support.dao.impl.factory;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/** 领域对象实体
  * The configuration of the value object.
  * @author zjw
  */

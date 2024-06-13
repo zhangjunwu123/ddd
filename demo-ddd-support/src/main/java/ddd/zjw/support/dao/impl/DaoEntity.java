@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
+/** 因为sql组装需要表名等元素，组装这个实体
  * @author zjw
  */
 public class DaoEntity {

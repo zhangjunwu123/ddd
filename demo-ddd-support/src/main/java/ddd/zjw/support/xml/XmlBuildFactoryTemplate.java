@@ -97,10 +97,12 @@ public abstract class XmlBuildFactoryTemplate {
 	/**
 	 * initialize a factory with list of paths
 	 * @param paths the list of paths to read xml files.
+	 *  读取vObject.xml领域对象配置，这个xml需要配置在业务应用下
 	 */
 	public void initFactory(String... paths){
 		try {
 			ClassPathResourceLoader loader = new ClassPathResourceLoader(this.getClass());
+
 			loader.loadResource(is->readXmlStream(is), paths);
 		} catch (IOException e) {
 			try {
